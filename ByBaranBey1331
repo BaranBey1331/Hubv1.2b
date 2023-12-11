@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "BladeBall Hub V1.2", HidePremium = false, SaveConfig = true, IntroText = "Loading", ConfigFolder = "myhubscript"})
+local Window = OrionLib:MakeWindow({Name = "BladeBall Hub V1.3", HidePremium = false, SaveConfig = true, IntroText = "Loading", ConfigFolder = "myhubscript"})
 
 local Tab = Window:MakeTab({
 	Name = "Blade Ball",
@@ -32,6 +32,20 @@ Tab:AddButton({
 	Name = "Sirius hub",
 	Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/Siriusisbetter/main/xyz.bb.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "nova x/gen",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/novaxnewgen/main/novax.lua",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "nova x/gen",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/xdevslasher/novaxnewgen/main/novax.lua",true))()
   	end    
 })
 
