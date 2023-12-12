@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "BladeBall Hub V1.4", HidePremium = false, SaveConfig = true, IntroText = "Loading", ConfigFolder = "myhubscript"})
+local Window = OrionLib:MakeWindow({Name = "BladeBall Hub V1.4.3", HidePremium = false, SaveConfig = true, IntroText = "Loading", ConfigFolder = "myhubscript"})
 
 local Tab = Window:MakeTab({
 	Name = "Blade Ball",
@@ -43,7 +43,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Galaxy Hub",
+	Name = "Galaxy Hub Note: if u use this the hub gonna close",
 	Callback = function()
   loadstring(game:HttpGet("https://paste.gg/p/anonymous/a180017023b94aa6a54811ea13b9e802/files/95e50523742642c88d5ff95dfd95cae7/raw"))()
   	end    
